@@ -1,0 +1,15 @@
+[workspace]
+members = ["cli", "core", "crypto"]
+resolver = "2"
+
+[workspace.package]
+authors = ["antonta <work@antonta.net>"]
+license = "Apache-2.0"
+repository = "https://github.com/scrooje/scrooje-toolkit"
+
+[workspace.dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+nanoid = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"

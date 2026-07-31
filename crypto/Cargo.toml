@@ -1,0 +1,33 @@
+[package]
+name = "scrooje-crypto"
+version = "0.1.0"
+edition = "2024"
+
+authors.workspace = true
+description = "Client-side cryptography (auth, key derivation, blob decryption) for Scrooje, an encrypted double-entry bookkeeping app."
+license.workspace = true
+repository.workspace = true
+keywords = ["cryptography", "encryption", "authentication", "webauthn"]
+categories = ["cryptography", "authentication"]
+
+[dependencies]
+chrono.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+argon2 = "0.5"
+base64 = "0.22"
+blake3 = "1.8"
+chacha20poly1305 = "0.11"
+ctap-hid-fido2 = { version = "3.5", optional = true }
+ed25519-dalek = "3.0"
+flate2 = "1.1"
+ml-dsa = "0.1"
+rand = "0.10"
+secrecy = "0.10"
+sha2 = "0.11"
+uuid = "1.24"
+
+[features]
+passkey = ["dep:ctap-hid-fido2"]

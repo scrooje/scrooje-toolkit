@@ -1,0 +1,149 @@
+{"t":5,"d":{"ve":1,"ou":["USD"]}}
+{"t":1,"d":{"id":"JlBhltZDIg","na":"Assets:Cash:EUR","do":"1981-07-17","un":["EUR"],"ic":{"id":386,"co":"blue"}}}
+{"t":1,"d":{"id":"tF6iFzKEOC","na":"Assets:Cash:USD","do":"1981-07-17","un":["USD"],"ic":{"id":386,"co":"blue"}}}
+{"t":1,"d":{"id":"7qxVOybatX","na":"Assets:Pending","do":"1981-07-17","un":[],"ic":{"id":153}}}
+{"t":1,"d":{"id":"e0RoZASJLP","na":"Assets:Receivables:Other","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"Yq8wUo9Rf-","na":"Assets:Refunds","do":"1981-07-17","un":[],"ic":{"id":127}}}
+{"t":1,"d":{"id":"c-5fPWxziA","na":"Equity:Rounding","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"Jp9AHNRAwa","na":"Expenses:Beauty","do":"1981-07-17","un":[],"ic":{"id":411,"co":"red"}}}
+{"t":1,"d":{"id":"0ggKkB6JuN","na":"Expenses:Communication:Internet","do":"1981-07-17","un":[],"ic":{"id":396,"co":"red"}}}
+{"t":1,"d":{"id":"1RIswEwVDi","na":"Expenses:Communication:Mobile","do":"1981-07-17","un":[],"ic":{"id":142,"co":"red"}}}
+{"t":1,"d":{"id":"RJBUt1RiQ5","na":"Expenses:Communication:Postal","do":"1981-07-17","un":[],"ic":{"id":219,"co":"red"}}}
+{"t":1,"d":{"id":"daoGB7q4AA","na":"Expenses:Donations","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"gTK8x7Gz9z","na":"Expenses:Education","do":"1981-07-17","un":[],"ic":{"id":22,"co":"red"}}}
+{"t":1,"d":{"id":"WdOijcSYor","na":"Expenses:Entertainment","do":"1981-07-17","un":[],"ic":{"id":140,"co":"red"}}}
+{"t":1,"d":{"id":"q3kZRCe1C5","na":"Expenses:Family","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"qN_sVYI3ZM","na":"Expenses:Financial","do":"1981-07-17","un":[],"ic":{"id":121,"co":"red"}}}
+{"t":1,"d":{"id":"CjncBri3Xd","na":"Expenses:Food:Coffee","do":"1981-07-17","un":[],"ic":{"id":406,"co":"red"}}}
+{"t":1,"d":{"id":"hIuk-smBNE","na":"Expenses:Food:Groceries","do":"1981-07-17","un":[],"ic":{"id":336,"co":"red"}}}
+{"t":1,"d":{"id":"lfcWaBsDOq","na":"Expenses:Food:Restaurant","do":"1981-07-17","un":[],"ic":{"id":108,"co":"red"}}}
+{"t":1,"d":{"id":"gqCb_a_Zab","na":"Expenses:Food:Snacks","do":"1981-07-17","un":[],"ic":{"id":89,"co":"red"}}}
+{"t":1,"d":{"id":"hnUFqXT7GO","na":"Expenses:Gifts","do":"1981-07-17","un":[],"ic":{"id":178,"co":"red"}}}
+{"t":1,"d":{"id":"Mn0GGEOnfz","na":"Expenses:Government:Fees","do":"1981-07-17","un":[],"ic":{"id":410,"co":"red"}}}
+{"t":1,"d":{"id":"6WFVUmiauq","na":"Expenses:Government:Fines","do":"1981-07-17","un":[],"ic":{"id":100,"co":"red"}}}
+{"t":1,"d":{"id":"gXn3QZV6Xd","na":"Expenses:Health","do":"1981-07-17","un":[],"ic":{"id":353,"co":"red"}}}
+{"t":1,"d":{"id":"xM8N9-zf57","na":"Expenses:Hobbies","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"Yl8GCP_AMK","na":"Expenses:Home:Appliances","do":"1981-07-17","un":[],"ic":{"id":389,"co":"red"}}}
+{"t":1,"d":{"id":"HXrAz4fjmi","na":"Expenses:Home:Furniture","do":"1981-07-17","un":[],"ic":{"id":402,"co":"red"}}}
+{"t":1,"d":{"id":"T111dkmaCr","na":"Expenses:Home:Insurance","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"WlffGmoUwG","na":"Expenses:Home:Maintenance","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"IvK1ttsIQq","na":"Expenses:Home:MortgageInterest","do":"1981-07-17","un":[],"ic":{"id":121,"co":"red"}}}
+{"t":1,"d":{"id":"-3MBviVYgt","na":"Expenses:Home:Renovations","do":"1981-07-17","un":[],"ic":{"id":387,"co":"red"}}}
+{"t":1,"d":{"id":"dc0-gyMK-Z","na":"Expenses:Home:Rent","do":"1981-07-17","un":[],"ic":{"id":195,"co":"red"}}}
+{"t":1,"d":{"id":"3vtZ868-Mg","na":"Expenses:Home:Utilities","do":"1981-07-17","un":[],"ic":{"id":196,"co":"red"}}}
+{"t":1,"d":{"id":"MZHVqomgeI","na":"Expenses:Misc:Incidentals","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"TnAakw53aC","na":"Expenses:Misc:Tip","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"uQfy0AiGLb","na":"Expenses:Misc:Unknown","do":"1981-07-17","un":[],"ic":{"id":8,"co":"red"}}}
+{"t":1,"d":{"id":"Rh258tUyjd","na":"Expenses:Services","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"8voz84vm-V","na":"Expenses:Shopping:Clothes","do":"1981-07-17","un":[],"ic":{"id":333,"co":"red"}}}
+{"t":1,"d":{"id":"xZpEMtDv1f","na":"Expenses:Shopping:Electronics","do":"1981-07-17","un":[],"ic":{"id":139,"co":"red"}}}
+{"t":1,"d":{"id":"VLwm1UQmJd","na":"Expenses:Shopping:Household","do":"1981-07-17","un":[],"ic":{"id":413,"co":"red"}}}
+{"t":1,"d":{"id":"Lune9rQxfV","na":"Expenses:Shopping:PersonalCare","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"QDBHTelP6T","na":"Expenses:Software","do":"1981-07-17","un":[],"ic":{"id":57,"co":"red"}}}
+{"t":1,"d":{"id":"-MGDBMoA20","na":"Expenses:Transport:Fuel","do":"1981-07-17","un":[],"ic":{"id":175,"co":"red"}}}
+{"t":1,"d":{"id":"T34xNWKg2y","na":"Expenses:Transport:Parking","do":"1981-07-17","un":[],"ic":{"id":94,"co":"red"}}}
+{"t":1,"d":{"id":"gF1Icd-lhe","na":"Expenses:Transport:Public","do":"1981-07-17","un":[],"ic":{"id":83,"co":"red"}}}
+{"t":1,"d":{"id":"_eSdGkr0aX","na":"Expenses:Transport:Taxi","do":"1981-07-17","un":[],"ic":{"id":91,"co":"red"}}}
+{"t":1,"d":{"id":"9TlhNIxTFw","na":"Expenses:Travel:Flights","do":"1981-07-17","un":[],"ic":{"id":292,"co":"red"}}}
+{"t":1,"d":{"id":"qASATVzkPB","na":"Expenses:Travel:Lodging","do":"1981-07-17","un":[],"ic":{"id":200,"co":"red"}}}
+{"t":1,"d":{"id":"SbZ7xmYrbk","na":"Expenses:Travel:Sightseeing","do":"1981-07-17","un":[],"ic":{"id":73,"co":"red"}}}
+{"t":1,"d":{"id":"ur8zF6ADqK","na":"Income:Gifts","do":"1981-07-17","un":[],"ic":{"id":178,"co":"teal"}}}
+{"t":1,"d":{"id":"Q22MUEra8P","na":"Income:SalesOfPossessions","do":"1981-07-17","un":[],"ic":{"id":127,"co":"teal"}}}
+{"t":1,"d":{"id":"nQj-StwLj7","na":"Liabilities:Payables:Other","do":"1981-07-17","un":[]}}
+{"t":1,"d":{"id":"uO7y0XWCIX","na":"Liabilities:TaxPayable","do":"1981-07-17","un":[],"ic":{"id":359,"co":"orange"}}}
+{"t":1,"d":{"id":"2W08jWgJb5","na":"Assets:US:BankUnlimited:Current","do":"2020-05-25","un":["USD"],"ic":{"id":63,"co":"blue"}}}
+{"t":1,"d":{"id":"LLs_M5vNfI","na":"Assets:US:BankUnlimited:Savings","do":"2020-05-25","un":["USD"],"ic":{"id":287,"co":"blue"}}}
+{"t":1,"d":{"id":"xUvc9QMUMQ","na":"Assets:US:LosslessBrokers:Cash","do":"2020-05-25","un":["USD"]}}
+{"t":1,"d":{"id":"yappI3DwNz","na":"Assets:US:LosslessBrokers:GLD","do":"2020-05-25","un":["GLD"]}}
+{"t":1,"d":{"id":"Kvft_Urzc6","na":"Assets:US:LosslessBrokers:GOOG","do":"2020-05-25","un":["GOOG"]}}
+{"t":1,"d":{"id":"MjDlJwrzf2","na":"Assets:US:LosslessBrokers:VEU","do":"2020-05-25","un":["VEU"]}}
+{"t":1,"d":{"id":"EcGdpAr45W","na":"Assets:US:LosslessBrokers:VNQ","do":"2020-05-25","un":["VNQ"]}}
+{"t":1,"d":{"id":"xmjD70S4LK","na":"Assets:US:LosslessBrokers:VTI","do":"2020-05-25","un":["VTI"]}}
+{"t":1,"d":{"id":"vlkBBC_qqW","na":"Income:LosslessBrokers:PnL","do":"2020-05-25","un":[]}}
+{"t":1,"d":{"id":"kc0S4os6YP","na":"Income:US:BankUnlimited:Interest","do":"2020-05-25","un":["USD"],"ic":{"id":287,"co":"teal"}}}
+{"t":1,"d":{"id":"IZlIeICV61","na":"Liabilities:US:BankUnlimited:CreditCard","do":"2020-05-25","un":["USD"],"ic":{"id":125,"co":"orange"}}}
+{"t":1,"d":{"id":"Ffzwg0AR57","na":"Expenses:Taxes:Y2023:US:Income","do":"2023-01-01","un":[],"dc":"2024-04-09","ic":{"id":359,"co":"red"}}}
+{"t":1,"d":{"id":"NYjT6AmULU","na":"Equity:OpeningBalances","do":"2023-07-12","un":[]}}
+{"t":1,"d":{"id":"XKvTJn8G4f","na":"Income:US:Employment:MegaCorp:Bonus","do":"2023-07-12","un":[],"ic":{"id":17,"co":"teal"}}}
+{"t":1,"d":{"id":"_XeYxVg7nr","na":"Income:US:Employment:MegaCorp:Salary","do":"2023-07-12","un":[],"ic":{"id":55,"co":"teal"}}}
+{"t":1,"d":{"id":"HO81hCliPz","na":"Expenses:Taxes:Y2024:US:Income","do":"2024-01-01","un":[],"dc":"2025-04-10","ic":{"id":359,"co":"red"}}}
+{"t":1,"d":{"id":"ffxh4oL_d3","na":"Assets:US:House","do":"2024-07-11","un":["HOUSE"]}}
+{"t":1,"d":{"id":"FWQAh0-FkM","na":"Liabilities:US:BankUnlimited:Mortgage","do":"2024-07-11","un":["USD"]}}
+{"t":1,"d":{"id":"_C27myzq3J","na":"Expenses:Taxes:Y2025:US:Income","do":"2025-01-01","un":[],"ic":{"id":359,"co":"red"}}}
+{"t":1,"d":{"id":"g7mSsMnI_M","na":"Liabilities:Duplicate","do":"2025-07-13","un":[]}}
+{"t":1,"d":{"id":"JDkawl7tXr","na":"Liabilities:Foo","do":"2025-08-03","un":[]}}
+{"t":1,"d":{"id":"OK3APKqjXV","na":"Liabilities:Test","do":"2025-08-03","un":[],"dc":"2025-08-03"}}
+{"t":4,"d":{"na":"HOUSE","ty":"Property","df":true}}
+{"t":6,"d":{"id":"CwBXuM_z4B","na":"trip-london-2023","co":"yellow"}}
+{"t":6,"d":{"id":"qaGIwsKRUs","na":"trip-london-2025","co":"blue"}}
+{"t":6,"d":{"id":"zmAaVAIWDl","na":"trip-paris-2024","co":"violet"}}
+{"t":6,"d":{"id":"2laKGwWb3y","na":"trip-paris-2025","co":"cyan"}}
+{"t":7,"d":{"id":"OxcIItrWXH","mo":"GOAL","na":"Credit card limit","sc":"NEGATIVE","st":"2024-07-14","ag":"BALANCE","cf":[{"ef":"2024-07-14","sl":[{"ty":"EXPLICIT","id":"IZlIeICV61"}],"am":{"n":"1000","u":"USD"}}]}}
+{"t":7,"d":{"id":"6TyxJU2zmV","mo":"PERIODIC","na":"Income target","sc":"POSITIVE","st":"2024-07-14","pr":{"ty":"CALENDAR","pd":"MONTH"},"sr":"RESET","cf":[{"ef":"2024-07-14","sl":[{"ty":"PREFIX","pr":"Income"}],"am":{"n":"16000","u":"USD"}}]}}
+{"t":7,"d":{"id":"VYfp0nva2-","mo":"GOAL","na":"Pay down mortgage chunk","sc":"POSITIVE","st":"2025-07-12","ag":"FLOW","cf":[{"ef":"2025-07-12","sl":[{"ty":"EXPLICIT","id":"FWQAh0-FkM"}],"am":{"n":"50000","u":"USD"}}],"di":"DECREASE","ex":"2027-07-11"}}
+{"t":7,"d":{"id":"ZXmU0HyMfR","mo":"PERIODIC","na":"Restaurant budget","sc":"NEGATIVE","st":"2024-07-14","pr":{"ty":"CALENDAR","pd":"MONTH"},"sr":"ROLLOVER_FAVORABLE","cf":[{"ef":"2024-07-14","sl":[{"ty":"EXPLICIT","id":"lfcWaBsDOq"}],"am":{"n":"750","u":"USD"}},{"ef":"2025-07-14","sl":[{"ty":"EXPLICIT","id":"lfcWaBsDOq"}],"am":{"n":"700","u":"USD"}}]}}
+{"t":7,"d":{"id":"GmOrQxYtTp","mo":"GOAL","na":"Savings target","sc":"POSITIVE","st":"2024-07-14","ag":"BALANCE","cf":[{"ef":"2024-07-14","sl":[{"ty":"EXPLICIT","id":"LLs_M5vNfI"}],"am":{"n":"300000","u":"USD"}}]}}
+{"t":2,"d":{"id":"LdcXBwVID1t2_x24_Vf0A","ni":3142,"dt":"2025-07-06","de":"Buy shares of GOOG","po":[{"ac":"Kvft_Urzc6","am":{"n":"1","u":"GOOG"},"co":{"n":"180.55","u":"USD","d":"2025-07-06"}},{"ac":"qN_sVYI3ZM","am":{"n":"4","u":"USD"}},{"ac":"xUvc9QMUMQ","am":{"n":"-184.55","u":"USD"}}]}}
+{"t":2,"d":{"id":"tvJUbSvDw-PPwvp2C9zVG","ni":2790,"dt":"2025-04-13","de":"Lunch","po":[{"ac":"lfcWaBsDOq","am":{"n":"32.27","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-25.16","u":"USD"},"ap":{"n":"32.27","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"UtjPwpk16ejeJvbWejNfC","ni":2789,"dt":"2025-04-13","de":"Taxi to airport","po":[{"ac":"_eSdGkr0aX","am":{"n":"48.67","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-37.94","u":"USD"},"ap":{"n":"48.67","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"t9f8lP0q05Tw8B3bHH5MQ","ni":2788,"dt":"2025-04-13","de":"Local transport","po":[{"ac":"gF1Icd-lhe","am":{"n":"8.14","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-6.35","u":"USD"},"ap":{"n":"8.14","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"X87JeylYTGyEXM5X8v4kU","ni":2787,"dt":"2025-04-13","de":"Breakfast","po":[{"ac":"lfcWaBsDOq","am":{"n":"18.43","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-14.37","u":"USD"},"ap":{"n":"18.43","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"8n-N0nKG-vzNNcLKJJB0p","ni":2786,"dt":"2025-04-12","de":"Dinner","po":[{"ac":"lfcWaBsDOq","am":{"n":"45.99","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-35.85","u":"USD"},"ap":{"n":"45.99","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"8X6SVIyGW_cnZcHRO0t57","ni":2785,"dt":"2025-04-12","de":"Gift shopping","po":[{"ac":"hnUFqXT7GO","am":{"n":"186.71","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-145.54","u":"USD"},"ap":{"n":"186.71","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"IgkAIrgB0MfU7RF1CDLHs","ni":2784,"dt":"2025-04-12","de":"Lunch","po":[{"ac":"lfcWaBsDOq","am":{"n":"19.04","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-14.84","u":"USD"},"ap":{"n":"19.04","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"KcjlJBfArlV50dDqiTBbc","ni":2783,"dt":"2025-04-12","de":"Taxi","po":[{"ac":"_eSdGkr0aX","am":{"n":"20.61","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-16.07","u":"USD"},"ap":{"n":"20.61","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"7mtNo-b6zoeAmvx9GhWww","ni":2782,"dt":"2025-04-11","de":"Dinner","po":[{"ac":"lfcWaBsDOq","am":{"n":"48.36","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-37.7","u":"USD"},"ap":{"n":"48.36","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"SWdum0KvX8rX2seMDvpFL","ni":2781,"dt":"2025-04-11","de":"Lunch @ Restaurant","po":[{"ac":"lfcWaBsDOq","am":{"n":"23.77","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-18.53","u":"USD"},"ap":{"n":"23.77","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"LyAkNB4nNse5OJLzUX6dD","ni":2780,"dt":"2025-04-11","de":"Local transport","po":[{"ac":"gF1Icd-lhe","am":{"n":"6.82","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-5.32","u":"USD"},"ap":{"n":"6.82","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"HDw2rJbyVeewRPkrkxsAJ","ni":2779,"dt":"2025-04-11","de":"Breakfast","po":[{"ac":"lfcWaBsDOq","am":{"n":"21.71","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-16.92","u":"USD"},"ap":{"n":"21.71","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"CExQr7JtTRvlRzm0ilm7A","ni":2778,"dt":"2025-04-11","de":"Transfer to savings account","po":[{"ac":"LLs_M5vNfI","am":{"n":"1556.6","u":"USD"}},{"ac":"2W08jWgJb5","am":{"n":"-1556.6","u":"USD"}}]}}
+{"t":2,"d":{"id":"pH_5SyUdVoSFQYJMHkk4o","ni":2777,"dt":"2025-04-10","de":"Dinner","po":[{"ac":"lfcWaBsDOq","am":{"n":"28.31","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-22.27","u":"USD"},"ap":{"n":"28.31","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"Q4ceCLQdZxUwBSLZiiIuM","ni":2776,"dt":"2025-04-10","de":"Shopping","po":[{"ac":"8voz84vm-V","am":{"n":"146.18","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-115","u":"USD"},"ap":{"n":"146.18","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"HvVi2YtuMhey0m22emoDO","ni":2775,"dt":"2025-04-10","de":"Sightseeing","po":[{"ac":"SbZ7xmYrbk","am":{"n":"28.57","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-22.48","u":"USD"},"ap":{"n":"28.57","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"Iet7-I6vaU-2xf0dKM0Aw","ni":2774,"dt":"2025-04-10","de":"Lunch","po":[{"ac":"lfcWaBsDOq","am":{"n":"22.51","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-17.71","u":"USD"},"ap":{"n":"22.51","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"l-0y2O0wH1rJK1Ypc4vDM","ni":2773,"dt":"2025-04-10","de":"Local transport","po":[{"ac":"gF1Icd-lhe","am":{"n":"6.84","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-5.38","u":"USD"},"ap":{"n":"6.84","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"iRfXH9ZW6Czi83k8sZsxg","ni":2772,"dt":"2025-04-10","de":"Breakfast","po":[{"ac":"lfcWaBsDOq","am":{"n":"14.52","u":"GBP"}},{"ac":"IZlIeICV61","am":{"n":"-11.42","u":"USD"},"ap":{"n":"14.52","u":"GBP"}}],"ta":["qaGIwsKRUs"]}}
+{"t":2,"d":{"id":"wbSLrTOzdC827pGWAnNGs","ni":2771,"dt":"2025-04-10","de":"Internet","po":[{"ac":"0ggKkB6JuN","am":{"n":"50","u":"USD"}},{"ac":"2W08jWgJb5","am":{"n":"-50","u":"USD"}}]}}
+{"t":2,"d":{"id":"sSh0EO1O3J0pg9dEYrL9t","ni":2770,"dt":"2025-04-10","de":"Utilities","po":[{"ac":"3vtZ868-Mg","am":{"n":"60","u":"USD"}},{"ac":"2W08jWgJb5","am":{"n":"-60","u":"USD"}}]}}
+{"t":2,"d":{"id":"6kyYO5ffesd6ZveKLfIr6","ni":39,"dt":"2023-07-20","de":"Commute to work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"tcX_HDCjx6jnmHSOjXfM3","ni":38,"dt":"2023-07-20","de":"Eating out for dinner","po":[{"ac":"lfcWaBsDOq","am":{"n":"29.72","u":"USD"}},{"ac":"TnAakw53aC","am":{"n":"0.28","u":"USD"}},{"ac":"IZlIeICV61","am":{"n":"-30","u":"USD"}}]}}
+{"t":2,"d":{"id":"xguafuwxXZczXaYN_l6oA","ni":37,"dt":"2023-07-20","de":"Eating out for lunch","po":[{"ac":"lfcWaBsDOq","am":{"n":"14.58","u":"USD"}},{"ac":"TnAakw53aC","am":{"n":"0.42","u":"USD"}},{"ac":"IZlIeICV61","am":{"n":"-15","u":"USD"}}]}}
+{"t":2,"d":{"id":"XDmEySIBq-_vrE-L2qG_u","ni":36,"dt":"2023-07-19","de":"Commute from work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"SkUUiFknnBLBpx_enFZBr","ni":35,"dt":"2023-07-19","de":"Commute to work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"uf7dsV6jt4dmr2xe7wCoj","ni":30,"dt":"2023-07-19","de":"Completed - Transfer to Lossless Brokers","po":[{"ac":"xUvc9QMUMQ","am":{"n":"1125","u":"USD"}},{"ac":"7qxVOybatX","am":{"n":"-1125","u":"USD"}}]}}
+{"t":2,"d":{"id":"cx1bvLugltoP2IUvkKepF","ni":34,"dt":"2023-07-18","de":"Commute from work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"tYX0vw4vY2jF4z2F4Vl6q","ni":33,"dt":"2023-07-18","de":"Commute to work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"CIJcWPuqGdMVMdMeMlsKI","ni":32,"dt":"2023-07-18","de":"Snacks","po":[{"ac":"gqCb_a_Zab","am":{"n":"6.81","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-6.81","u":"USD"}}]}}
+{"t":2,"d":{"id":"hFNSPWyKQqrx38jNUpMPy","ni":31,"dt":"2023-07-18","de":"Eating out for lunch","po":[{"ac":"lfcWaBsDOq","am":{"n":"24.42","u":"USD"}},{"ac":"TnAakw53aC","am":{"n":"0.58","u":"USD"}},{"ac":"IZlIeICV61","am":{"n":"-25","u":"USD"}}]}}
+{"t":2,"d":{"id":"LLHKtk7WXZ45IeSHdDfiN","ni":29,"dt":"2023-07-17","de":"Pending - Transfer to Lossless Brokers","po":[{"ac":"7qxVOybatX","am":{"n":"1125","u":"USD"}},{"ac":"qN_sVYI3ZM","am":{"n":"10","u":"USD"}},{"ac":"2W08jWgJb5","am":{"n":"-1135","u":"USD"}}]}}
+{"t":2,"d":{"id":"UA28VFAk4jgEY8Eo59WVe","ni":28,"dt":"2023-07-17","de":"Commute from work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"UPcjuaA75BL8Ub7CtzUAN","ni":27,"dt":"2023-07-17","de":"Commute to work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"XeMmMbu42R-YkxJdvtuBm","ni":26,"dt":"2023-07-17","de":"Snacks","po":[{"ac":"gqCb_a_Zab","am":{"n":"5.07","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-5.07","u":"USD"}}]}}
+{"t":2,"d":{"id":"QqOEb3WHhjAHcFStefeTl","ni":25,"dt":"2023-07-16","de":"Monthly TV subscription","po":[{"ac":"WdOijcSYor","am":{"n":"25.74","u":"USD"}},{"ac":"IZlIeICV61","am":{"n":"-25.74","u":"USD"}}]}}
+{"t":2,"d":{"id":"WaDq42p0hUayk_DVdGa95","ni":24,"dt":"2023-07-16","de":"Commute from work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"g3yEzO2bOjePQrDEhhZuz","ni":23,"dt":"2023-07-16","de":"Commute to work","po":[{"ac":"gF1Icd-lhe","am":{"n":"2","u":"USD"}},{"ac":"tF6iFzKEOC","am":{"n":"-2","u":"USD"}}]}}
+{"t":2,"d":{"id":"Vg7d18rLhAH-uJW8Fu9EP","ni":3,"dt":"2023-07-12","de":"Opening balances - Savings bank accounts","po":[{"ac":"LLs_M5vNfI","am":{"n":"159561.8","u":"USD"}},{"ac":"NYjT6AmULU","am":{"n":"-159561.8","u":"USD"}}]}}
+{"t":2,"d":{"id":"rR5jvL7Jz7itV4ofUaxsW","ni":2,"dt":"2023-07-12","de":"Opening balances - Current bank accounts","po":[{"ac":"2W08jWgJb5","am":{"n":"5520.52","u":"USD"}},{"ac":"NYjT6AmULU","am":{"n":"-5520.52","u":"USD"}}]}}
+{"t":2,"d":{"id":"Q7OS8wL1m971Kf_QP2hMX","ni":1,"dt":"2023-07-12","de":"Opening balances - Cash","po":[{"ac":"tF6iFzKEOC","am":{"n":"268.58","u":"USD"}},{"ac":"JlBhltZDIg","am":{"n":"134.16","u":"EUR"}},{"ac":"NYjT6AmULU","am":{"n":"-134.16","u":"EUR"}},{"ac":"NYjT6AmULU","am":{"n":"-268.58","u":"USD"}}]}}
+{"t":8,"d":{"id":"ft6ZKfHm_Y","dt":"2026-01-08","un":"SHA","ty":"SPLIT","nr":10,"dr":1}}
+{"t":3,"d":{"d":"2024-07-11","u":"HOUSE","a":{"n":"300000","u":"USD"}}}
+{"t":3,"d":{"d":"2024-07-14","u":"HOUSE","a":{"n":"299737.37","u":"USD"}}}
+{"t":3,"d":{"d":"2024-07-21","u":"HOUSE","a":{"n":"297744.8","u":"USD"}}}
+{"t":3,"d":{"d":"2024-07-28","u":"HOUSE","a":{"n":"300542.2","u":"USD"}}}
+{"t":3,"d":{"d":"2024-08-04","u":"HOUSE","a":{"n":"302994.85","u":"USD"}}}
+{"t":3,"d":{"d":"2024-08-11","u":"HOUSE","a":{"n":"300834.71","u":"USD"}}}
+{"t":3,"d":{"d":"2024-08-18","u":"HOUSE","a":{"n":"304143.77","u":"USD"}}}
+{"t":3,"d":{"d":"2024-08-25","u":"HOUSE","a":{"n":"301256.71","u":"USD"}}}
+{"t":3,"d":{"d":"2024-09-01","u":"HOUSE","a":{"n":"305813.18","u":"USD"}}}
+{"t":3,"d":{"d":"2024-09-08","u":"HOUSE","a":{"n":"308765.33","u":"USD"}}}
+{"t":3,"d":{"d":"2024-09-15","u":"HOUSE","a":{"n":"307196.86","u":"USD"}}}
+{"t":3,"d":{"d":"2024-09-22","u":"HOUSE","a":{"n":"304426.67","u":"USD"}}}
+{"t":3,"d":{"d":"2024-09-29","u":"HOUSE","a":{"n":"298696.55","u":"USD"}}}
+{"t":3,"d":{"d":"2024-10-06","u":"HOUSE","a":{"n":"299539.56","u":"USD"}}}
+{"t":3,"d":{"d":"2024-10-13","u":"HOUSE","a":{"n":"294424.99","u":"USD"}}}
+{"t":3,"d":{"d":"2024-10-20","u":"HOUSE","a":{"n":"298013.17","u":"USD"}}}
+{"t":3,"d":{"d":"2024-10-27","u":"HOUSE","a":{"n":"303244.78","u":"USD"}}}
+{"t":3,"d":{"d":"2024-11-03","u":"HOUSE","a":{"n":"307229.12","u":"USD"}}}
+{"t":3,"d":{"d":"2024-11-10","u":"HOUSE","a":{"n":"305830.21","u":"USD"}}}
+{"t":3,"d":{"d":"2024-11-17","u":"HOUSE","a":{"n":"311224.53","u":"USD"}}}
+{"t":3,"d":{"d":"2024-11-24","u":"HOUSE","a":{"n":"316623.75","u":"USD"}}}

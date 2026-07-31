@@ -1,0 +1,260 @@
+{
+  "version": "1.0",
+  "processed_at": "2025-09-01T00:00:00.000Z",
+  "transactions": [
+    {
+      "id": "UtjPwpk16ejeJvbWejNfC",
+      "numeric_id": 3153,
+      "date": "2025-07-09",
+      "description": "Coffee @ Stackbucks",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Expenses:Food:Coffee",
+          "amount": {
+            "number": "2.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Liabilities:US:BankUnlimited:CreditCard",
+          "amount": {
+            "number": "-2.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "t9f8lP0q05Tw8B3bHH5MQ",
+      "numeric_id": 3148,
+      "date": "2025-07-08",
+      "description": "Pay off credit card",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Liabilities:US:BankUnlimited:CreditCard",
+          "amount": {
+            "number": "1454.87",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:US:BankUnlimited:Current",
+          "amount": {
+            "number": "-1454.87",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": "A mutliline\n\ncomment."
+    },
+    {
+      "id": "X87JeylYTGyEXM5X8v4kU",
+      "numeric_id": 3143,
+      "date": "2025-07-07",
+      "description": "Eating out for lunch",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Expenses:Food:Restaurant",
+          "amount": {
+            "number": "13.24",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Expenses:Misc:Tip",
+          "amount": {
+            "number": "0.76",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Liabilities:US:BankUnlimited:CreditCard",
+          "amount": {
+            "number": "-14",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "8X6SVIyGW_cnZcHRO0t57",
+      "numeric_id": 3142,
+      "date": "2025-07-06",
+      "description": "Buy shares of GOOG",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Assets:US:LosslessBrokers:GOOG",
+          "amount": {
+            "number": "1",
+            "unit": "GOOG"
+          },
+          "cost": {
+            "date": "2025-07-06",
+            "number": "180.55",
+            "unit": "USD"
+          },
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Expenses:Financial",
+          "amount": {
+            "number": "4",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:US:LosslessBrokers:Cash",
+          "amount": {
+            "number": "-184.55",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "IgkAIrgB0MfU7RF1CDLHs",
+      "numeric_id": 3136,
+      "date": "2025-07-05",
+      "description": "Buy shares of VTI",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Assets:US:LosslessBrokers:VTI",
+          "amount": {
+            "number": "3",
+            "unit": "VTI"
+          },
+          "cost": {
+            "date": "2025-07-05",
+            "number": "308.03",
+            "unit": "USD"
+          },
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Expenses:Financial",
+          "amount": {
+            "number": "4",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:US:LosslessBrokers:Cash",
+          "amount": {
+            "number": "-928.09",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "KcjlJBfArlV50dDqiTBbc",
+      "numeric_id": 2791,
+      "date": "2025-04-13",
+      "description": "Dinner",
+      "tags": ["trip-london-2025"],
+      "postings": [
+        {
+          "account": "Expenses:Food:Restaurant",
+          "amount": {
+            "number": "31.86",
+            "unit": "GBP"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Liabilities:US:BankUnlimited:CreditCard",
+          "amount": {
+            "number": "-24.84",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": {
+            "number": "31.86",
+            "unit": "GBP"
+          }
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "SWdum0KvX8rX2seMDvpFL",
+      "numeric_id": 2790,
+      "date": "2025-04-13",
+      "description": "Lunch",
+      "tags": ["trip-london-2025"],
+      "postings": [
+        {
+          "account": "Expenses:Food:Restaurant",
+          "amount": {
+            "number": "32.27",
+            "unit": "GBP"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Liabilities:US:BankUnlimited:CreditCard",
+          "amount": {
+            "number": "-25.16",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": {
+            "number": "32.27",
+            "unit": "GBP"
+          }
+        }
+      ],
+      "comment": null
+    }
+  ]
+}

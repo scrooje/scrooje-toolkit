@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "processed_at": "2025-09-01T00:00:00.000Z",
+  "transactions": [
+    {
+      "id": "IgkAIrgB0MfU7RF1CDLHs",
+      "numeric_id": 3153,
+      "date": "2025-07-09",
+      "description": "Cash payment in USD",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Expenses:Food",
+          "amount": {
+            "number": "2.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:Cash:Other",
+          "amount": {
+            "number": "-2.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "KcjlJBfArlV50dDqiTBbc",
+      "numeric_id": 3152,
+      "date": "2025-07-08",
+      "description": "Cash payment in USD",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Expenses:Food",
+          "amount": {
+            "number": "3.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:Cash:Other",
+          "amount": {
+            "number": "-3.2",
+            "unit": "USD"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    },
+    {
+      "id": "SWdum0KvX8rX2seMDvpFL",
+      "numeric_id": 3151,
+      "date": "2025-07-07",
+      "description": "Cash payment in EUR",
+      "tags": [],
+      "postings": [
+        {
+          "account": "Expenses:Food",
+          "amount": {
+            "number": "3.2",
+            "unit": "EUR"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        },
+        {
+          "account": "Assets:Cash:Other",
+          "amount": {
+            "number": "-3.2",
+            "unit": "EUR"
+          },
+          "cost": null,
+          "exchange_amount": null,
+          "foreign_amount": null
+        }
+      ],
+      "comment": null
+    }
+  ]
+}

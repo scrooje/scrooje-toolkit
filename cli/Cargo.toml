@@ -1,0 +1,42 @@
+[package]
+name = "scrooje-cli"
+version = "0.1.0"
+edition = "2024"
+
+authors.workspace = true
+description = "Companion CLI for Scrooje, an encrypted double-entry bookkeeping app."
+license.workspace = true
+repository.workspace = true
+keywords = ["bookkeeping", "cli", "accounting", "finance"]
+categories = ["command-line-utilities", "finance"]
+
+[[bin]]
+name = "scrooje"
+path = "src/main.rs"
+
+[dependencies]
+chrono.workspace = true
+nanoid.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+
+bytes = "1.12"
+clap = { version = "4.6", features = ["derive"] }
+env_logger = "0.11"
+futures = "0.3"
+inquire = "0.9"
+log = "0.4"
+reqwest = "0.13"
+secrecy = "0.10"
+tokio = { version = "1.53", features = [
+    "macros",
+    "parking_lot",
+    "rt",
+    "sync",
+    "time",
+] }
+uuid = { version = "1.24", features = ["serde"] }
+
+scrooje-core = { path = "../core", version = "0.1.0" }
+scrooje-crypto = { path = "../crypto", version = "0.1.0", features = ["passkey"] }
