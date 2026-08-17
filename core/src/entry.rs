@@ -424,6 +424,12 @@ pub struct PeriodicTrackerEntry {
     pub strategy: TrackerStrategy,
     #[serde(rename = "sc")]
     pub score: TrackerScore,
+    #[serde(rename = "di", skip_serializing_if = "Option::is_none")]
+    pub direction: Option<TrackerDirection>,
+    #[serde(rename = "sm", skip_serializing_if = "Option::is_none")]
+    pub sign_mode: Option<TrackerSignMode>,
+    #[serde(rename = "cv", skip_serializing_if = "Option::is_none")]
+    pub conversion: Option<TrackerConversion>,
     #[serde(rename = "cf")]
     pub configs: Vec<TrackerConfig>,
 }
@@ -440,10 +446,14 @@ pub struct GoalTrackerEntry {
     pub aggregation: TrackerAggregation,
     #[serde(rename = "di", skip_serializing_if = "Option::is_none")]
     pub direction: Option<TrackerDirection>,
+    #[serde(rename = "sm", skip_serializing_if = "Option::is_none")]
+    pub sign_mode: Option<TrackerSignMode>,
     #[serde(rename = "ex", skip_serializing_if = "Option::is_none")]
     pub expiry: Option<chrono::NaiveDate>,
     #[serde(rename = "sc")]
     pub score: TrackerScore,
+    #[serde(rename = "cv", skip_serializing_if = "Option::is_none")]
+    pub conversion: Option<TrackerConversion>,
     #[serde(rename = "cf")]
     pub configs: Vec<TrackerConfig>,
 }
@@ -505,6 +515,22 @@ pub enum TrackerDirection {
     Decrease,
 }
 
+/// Tracker sign mode.
+#[derive(Clone, Copy, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
+#[serde(rename_all = "SCREAMING_SNAKE_CASE")]
+pub enum TrackerSignMode {
+    Normalized,
+    Raw,
+}
+
+/// Tracker currency conversion configuration.
+#[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
+pub struct TrackerConversion {
+    #[serde(rename = "en")]
+    pub enabled: bool,
+}
+
+/// A single tracker config.
 #[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
 pub struct TrackerConfig {
     #[serde(rename = "ef")]
@@ -517,6 +543,7 @@ pub struct TrackerConfig {
     pub filter: Option<String>,
 }
 
+/// A selector of accounts of a tracker. Either exact or prefix match is allowed.
 #[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE", tag = "ty")]
 pub enum AccountSelector {
