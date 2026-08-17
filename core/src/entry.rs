@@ -563,6 +563,7 @@ pub enum CorporateActionEntry {
     Split(SplitActionEntry),
 }
 
+/// A stock split corporate action.
 #[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
 pub struct SplitActionEntry {
     pub id: String,
