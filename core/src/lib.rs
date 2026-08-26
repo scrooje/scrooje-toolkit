@@ -1,5 +1,5 @@
 //! Data interchange formats and types for working with
-//! [Scrooje][https://scroo.je/).
+//! [Scrooje](https://scroo.je/).
 macro_rules! serde_impls {
     ($ty:ty, $expecting:expr) => {
         impl<'de> serde::Deserialize<'de> for $ty {
