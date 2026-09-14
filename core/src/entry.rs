@@ -298,6 +298,7 @@ pub enum SymbolError {
 #[derive(Clone, Debug, Eq, Hash, PartialEq)]
 pub struct Ticker {
     name: String,
+    exchange: Option<Exchange>,
 }
 
 impl Ticker {
@@ -320,7 +321,9 @@ impl std::str::FromStr for Ticker {
             return Err(TickerError::BadPrefix(s.to_owned()));
         }
 
-        let bytes = ticker.as_bytes();
+        let (name, exchange) = ticker.split_once(":").unwrap_or((ticker, ""));
+
+        let bytes = name.as_bytes();
 
         if bytes.is_empty() {
             return Err(TickerError::Empty);
@@ -351,8 +354,15 @@ impl std::str::FromStr for Ticker {
             return Err(TickerError::ConsecutiveDots(s.to_owned()));
         }
 
+        let exchange = if exchange.is_empty() {
+            None
+        } else {
+            Some(exchange.into())
+        };
+
         Ok(Ticker {
             name: ticker.to_owned(),
+            exchange,
         })
     }
 }
@@ -374,6 +384,27 @@ pub enum TickerError {
     Empty,
     #[error("ticker name too long: expected {0} <= {max}", max = Ticker::MAX_LENGTH)]
     TooLong(usize),
+}
+
+/// An exchange - a market where the ticker is traded. Currently can be set to
+/// "unknown" only, as the non-US markets are not supported.
+#[derive(Clone, Debug, Eq, Hash, PartialEq)]
+pub enum Exchange {
+    Unknown(String),
+}
+
+impl std::fmt::Display for Exchange {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Self::Unknown(value) => f.write_str(value),
+        }
+    }
+}
+
+impl From<&str> for Exchange {
+    fn from(value: &str) -> Self {
+        Self::Unknown(value.to_owned())
+    }
 }
 
 /// Preferences entity describing app-wide preferences.
@@ -651,18 +682,27 @@ mod tests {
         assert!("ticker:MSFT".parse::<Ticker>().is_ok());
         assert!("ticker:GOOGL".parse::<Ticker>().is_ok());
 
+        // Tickers with exchange
+        assert!("ticker:VOO:XLON".parse::<Ticker>().is_ok());
+        assert!("ticker:SPY:XFRA".parse::<Ticker>().is_ok());
+        assert!("ticker:SHOP:XTSE".parse::<Ticker>().is_ok());
+
         // Tickers with numbers
         assert!("ticker:B1".parse::<Ticker>().is_ok());
         assert!("ticker:3M".parse::<Ticker>().is_ok());
 
+        // Tickers starting with numbers
+        assert!("ticker:3M:XAMS".parse::<Ticker>().is_ok());
+        assert!("ticker:1COV:XFRA".parse::<Ticker>().is_ok());
+
         // Complex tickers with dots
-        assert!("ticker:BRK.A".parse::<Ticker>().is_ok());
+        assert!("ticker:BRK.A:XLON".parse::<Ticker>().is_ok());
         assert!("ticker:BERKSHIRE.A".parse::<Ticker>().is_ok());
         assert!("ticker:A.B.C".parse::<Ticker>().is_ok());
 
         // Single character ticker
         assert!("ticker:A".parse::<Ticker>().is_ok());
-        assert!("ticker:X".parse::<Ticker>().is_ok());
+        assert!("ticker:X:XTSE".parse::<Ticker>().is_ok());
 
         // Boundary case - exactly max length (20 chars)
         let max_length_ticker = format!("ticker:{}", "A".repeat(20));
@@ -687,6 +727,9 @@ mod tests {
         let err = "ticker:".parse::<Ticker>().unwrap_err();
         assert!(matches!(err, TickerError::Empty));
         assert_eq!(err.to_string(), "ticker name cannot be empty");
+
+        let err = "ticker::XLON".parse::<Ticker>().unwrap_err();
+        assert!(matches!(err, TickerError::Empty));
     }
 
     #[test]
@@ -769,5 +812,11 @@ mod tests {
     fn ticker_display_format() {
         let ticker_no_exchange: Ticker = "ticker:AAPL".parse().unwrap();
         assert_eq!(ticker_no_exchange.to_string(), "ticker:AAPL");
+
+        let ticker_with_exchange: Ticker = "ticker:VOO:XLON".parse().unwrap();
+        assert_eq!(ticker_with_exchange.to_string(), "ticker:VOO:XLON");
+
+        let complex_ticker: Ticker = "ticker:BRK.A:XTSE".parse().unwrap();
+        assert_eq!(complex_ticker.to_string(), "ticker:BRK.A:XTSE");
     }
 }
