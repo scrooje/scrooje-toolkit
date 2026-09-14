@@ -147,7 +147,7 @@ pub struct AccountEntry {
     pub icon: Option<AccountIcon>,
 }
 
-#[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
+#[derive(Clone, Copy, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum AccountType {
     Cash,
@@ -160,7 +160,7 @@ pub struct TradingAccountConfig {
     pub rule: TradingAccountRule,
 }
 
-#[derive(Clone, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
+#[derive(Clone, Copy, Debug, Eq, Hash, PartialEq, serde::Deserialize, serde::Serialize)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum TradingAccountRule {
     Fifo,
