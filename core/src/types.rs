@@ -36,6 +36,41 @@ impl AccountName {
                 .zip(other.0.iter())
                 .all(|(left, right)| left == right)
     }
+
+    /// Returns true if this is an Assets account.
+    pub fn is_assets(&self) -> bool {
+        self.0
+            .first()
+            .is_some_and(|label| label.0 == AccountLabel::ASSETS)
+    }
+
+    /// Returns true if this is an Equity account.
+    pub fn is_equity(&self) -> bool {
+        self.0
+            .first()
+            .is_some_and(|label| label.0 == AccountLabel::EQUITY)
+    }
+
+    /// Returns true if this is an Expenses account.
+    pub fn is_expenses(&self) -> bool {
+        self.0
+            .first()
+            .is_some_and(|label| label.0 == AccountLabel::EXPENSES)
+    }
+
+    /// Returns true if this is an Income account.
+    pub fn is_income(&self) -> bool {
+        self.0
+            .first()
+            .is_some_and(|label| label.0 == AccountLabel::INCOME)
+    }
+
+    /// Returns true if this is a Liabilities account.
+    pub fn is_liabilities(&self) -> bool {
+        self.0
+            .first()
+            .is_some_and(|label| label.0 == AccountLabel::LIABILITIES)
+    }
 }
 
 impl std::fmt::Display for AccountName {
