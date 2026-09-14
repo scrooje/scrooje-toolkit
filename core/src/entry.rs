@@ -497,6 +497,7 @@ pub enum CalendarPeriod {
 pub enum TrackerStrategy {
     Reset,
     RolloverFavorable,
+    RolloverUnfavorable,
     RolloverAll,
 }
 
