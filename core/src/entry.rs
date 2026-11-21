@@ -165,7 +165,7 @@ pub struct TradingAccountConfig {
 pub enum TradingAccountRule {
     Fifo,
     Lifo,
-    Acb,
+    Avg,
 }
 
 /// An icon on the account for visual display, nothing more.
